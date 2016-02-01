@@ -1,480 +1,778 @@
-<!DOCTYPE html
-PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es" xmlns:fb="http://ogp.me/ns/fb#" xmlns:og="http://ogp.me/ns#">
-	<head>
-            <!--Metas-->
-            <meta http-equiv="Content-type" content="text/html; charset=utf-8" ></meta>
-            <meta name="description" content="Soy un profesional dedicado al uso de tecnologías
-                                                                              para el desarrollo web, con experiencia tanto a nivel
-                                                                              de FrontEnd como BackEnd." ></meta>
-            <meta name="keywords" content="Nicolás Fredes, desarrollador, web, internet, programación, php, freelance" ></meta>
-            <meta name="title" content="Nicolás Andres Fredes Véliz" ></meta>
-            <meta property="og:type" content="" ></meta>
-            <meta property="og:url" content="http://nicolasfredes.cl" />
-            <meta property="og:title" content="Nicolás Fredes" />
-            <meta property="og:image" content="http://nicolasfredes.cl/img/sp-studio.png" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-            <title>Nicolás Fredes</title>
+  <title>Nicolás Fredes - Developer </title>
+  <meta name="Keywords" content="Nicolás Fredes, Web developer, "/>
+  <meta name="Description" content="Personal Website"/>
+  <meta name="Distribution" content="global"/>
+  <meta name="Robots" content="all"/>
 
-            <!--JQuery-->
-            <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-            <!--ColorBox-->
-            <link rel="stylesheet" type="text/css" href="colorbox/example5/colorbox.css"/>
-            <script type="text/javascript" src="colorbox/jquery.colorbox-min.js"></script>
-            
-            <!--Main CSS-->
-            <link rel="stylesheet" type="text/css" href="css.css"/>
-            <!--FavoIcon-->
-            <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico"/>
+  <!-- Favicon Browser -->
+  <link href="img/favicon.png" type="image/png" rel="icon">
+
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,800' rel='stylesheet' type='text/css'>
+
+  <!-- Font Awesome -->
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Plugins CSS -->
+  <link href="css/animate.min.css" rel="stylesheet">
+
+  <!-- Core Theme CSS -->
+  <link href="css/enterprise-c1.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  
+</head>
+<body>
+
+  <!-- Color Switch / can be removed in production -->
+  <link id="color-switch" href="" rel="stylesheet" type="text/css">
+  
+  <div id="block-switch" style="display:none"> 
+
+    <span id="gear">
+      <i class="fa fa-gear"></i>
+    </span>
+
+    <div id="block-color">
+      <span id="c1" data-color="00a69a"></span>
+      <span id="c2" data-color="b23b62"></span>
+      <span id="c3" data-color="b3c41f"></span>
+      <span id="c4" data-color="e29522" class="no-margin"></span>
+    </div>
+
+  </div><!--/ Color Switch -->
+
+  <div class="wrapper">
+
+    <div class="box">
+
+      <div class="row">
+        <!-- wrapper-aside -->
+        <aside class="column col-sm-3 wrapper-aside">
+
+          <!-- header title -->
+          <header>
+
+            <div id='topbar'></div>
+
+            <article>
+              <img src="img/photo.jpg" class="img-responsive img-circle animated zoomIn">
+            </article>
+
+            <h1 class="text-primary">Nicolás Fredes</h1>
+            <h2>Web Developer</h2>
+
+          </header><!--/ header title -->
+
+          <!-- social nav -->
+          <nav>
+
+            <ul class="pager">
+
+              <li>
+                <a href="https://www.facebook.com/niko.afv2" title="Social Facebook" class="animated rotateIn"><i class="fa fa-facebook"></i></a>
+              </li>
+
+              <li>
+                <a href="https://twitter.com/niko_afv" title="Social Twitter" class="animated rotateIn"><i class="fa fa-twitter"></i></a>
+              </li>
+
+              <li>
+                <a href="https://cl.linkedin.com/in/nicolás-fredes-87796966" title="Social Linkedin" class="animated rotateIn"><i class="fa fa-linkedin"></i></a>
+              </li>
+
+            </ul>
+
+          </nav><!--/ social nav -->
+
+          <footer class="hidden-xs">
+            Nicolás Fredes&copy;2016
+          </footer>
+
+        </aside><!--/ wrapper-aside -->     
+      
+        <!-- wrapper section -->
+        <section class="column col-sm-9 wrapper-section">
+
+          <div class="full col-sm-9">
+
+            <div class="wrapper-padding">
+
+              <!-- about me -->
+              <section class="margin-bottom" id="about-me">
+
+                <h2>About me</h2>
+                <!--<p><small>Excepteur sint occaecat cupidatat</small></p>-->
+
+                <div class="row margin-bottom">
+
+                  <div class="col-md-8">
+
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+
+                  </div>
+
+                  <div class="col-md-4 text-center">
+
+                    <p class="lead text-center">
+                      <i class="fa fa-level-down"></i>
+                    </p>
+                    <a href="#" class="btn btn-lg btn-block btn-default">
+                      <i class="fa fa-file-text-o"></i>&nbsp; Resume PDF
+                    </a>
+
+                  </div>
+
+                </div>
+
+                <div class="row">
+
+                  <div class="col-md-5 col-lg-3">
+
+                    <article class="media">
+
+                      <div class="pull-left">
+                        <span class="fa fa-phone bg-primary text-primary animated rotateIn"></span>
+                      </div>
+                      <div class="media-body animated fadeInRight">+569 90 62 8013</div>
+
+                    </article>
+
+                  </div>
+
+                  <div class="col-md-7 col-lg-4">
+
+                    <article class="media">
+
+                      <div class="pull-left">
+                        <span class="fa fa-envelope bg-primary text-primary animated rotateIn"></span>
+                      </div>
+                      <div class="media-body animated fadeInRight">niko.afv@gmail.com</div>
+
+                    </article>
+
+                  </div>
+
+                  <div class="col-md-12 col-lg-5">
+
+                    <article class="media">
+
+                      <div class="pull-left">
+                        <span class="fa fa-map-marker bg-primary text-primary animated rotateIn"></span>
+                      </div>
+                      <div class="media-body animated fadeInRight">Santiago, Región Metropolitana</div>
+
+                    </article>
+
+                  </div>
+
+                </div>
+
+              </section><!--/ about me -->
+
+              <!-- skill -->
+              <section class="margin-bottom" id="skills">
+
+                <h2>Skills</h2>
+                <!--<p class="margin-bottom"><small>Curabitur pretium tincidunt lacus</small></p>-->
+
+                <div class="row">
+                  <!--lenguajes block-->
+                  <div class="col-lg-6 margin-bottom">
+
+                    <h4 class="margin-bottom">Lenguajes</h4>
+
+                    <div class="progress">
+                      <div class="progress-bar" style="width: 90%">PHP</div>
+                    </div>
+
+                    <div class="progress">
+                      <div class="progress-bar" style="width: 50%">.Net</div>
+                    </div>
+
+                    <div class="progress">
+                      <div class="progress-bar" style="width: 30%">Java</div>
+                    </div>
+
+                    <div class="progress">
+                      <div class="progress-bar" style="width: 25%">Python</div>
+                    </div>
+
+                    <div class="progress level">
+                      <div class="progress-bar" style="width:25%">
+                        Newbie
+                      </div>
+                      <div class="progress-bar" style="width:25%">
+                        Good
+                      </div>
+                      <div class="progress-bar" style="width:25%">
+                        Pretty Good
+                      </div>
+                      <div class="progress-bar" style="width:25%">
+                        Superhero
+                      </div>
+                    </div>
+                  
+                  </div><!--/ lenguajes block-->
+
+                  <!--databases-->
+                  <div class="col-lg-6 margin-bottom">
+
+                    <h4 class="margin-bottom">Databases</h4>
+
+                    <div class="progress">
+                      <div class="progress-bar" style="width: 90%">MySQL</div>
+                    </div>
+
+                    <div class="progress">
+                      <div class="progress-bar" style="width: 50%">SQL Server</div>
+                    </div>
+
+                    <div class="progress">
+                      <div class="progress-bar" style="width: 20%">MariaDB</div>
+                    </div>
+
+                    <div class="progress level">
+
+                      <div class="progress-bar" style="width:25%">
+                        Newbie
+                      </div>
+                      <div class="progress-bar" style="width:25%">
+                        Good
+                      </div>
+                      <div class="progress-bar" style="width:25%">
+                        Pretty Good
+                      </div>
+                      <div class="progress-bar" style="width:25%">
+                        Superhero
+                      </div>
+
+                    </div>                   
+
+                  </div><!--/ databases-->
+
+                  <!--frameworks-->
+                  <div class="col-lg-6 margin-bottom">
+
+                    <h4 class="margin-bottom">Frameworks</h4>
+
+                    <div class="progress">
+                      <div class="progress-bar" style="width: 90%">Laravel 5</div>
+                    </div>
+
+                    <div class="progress">
+                      <div class="progress-bar" style="width: 75%">Codeigniter</div>
+                    </div>
+
+                    <div class="progress">
+                      <div class="progress-bar" style="width: 60%">Wordpress</div>
+                    </div>
+
+                    <div class="progress">
+                      <div class="progress-bar" style="width: 50%">Yii</div>
+                    </div>
+
+                    <div class="progress level">
+
+                      <div class="progress-bar" style="width:25%">
+                        Newbie
+                      </div>
+                      <div class="progress-bar" style="width:25%">
+                        Good
+                      </div>
+                      <div class="progress-bar" style="width:25%">
+                        Pretty Good
+                      </div>
+                      <div class="progress-bar" style="width:25%">
+                        Superhero
+                      </div>
+
+                    </div>                   
+
+                  </div><!--/ frameworks-->
+
+                  <!--systems-->
+                  <div class="col-lg-6 margin-bottom">
+
+                    <h4 class="margin-bottom">Systems</h4>
+
+                    <div class="progress">
+                      <div class="progress-bar" style="width: 80%">Linux</div>
+                    </div>
+
+                    <div class="progress">
+                      <div class="progress-bar" style="width: 50%">Windows</div>
+                    </div>
+
+                    <div class="progress level">
+
+                      <div class="progress-bar" style="width:25%">
+                        Newbie
+                      </div>
+                      <div class="progress-bar" style="width:25%">
+                        Good
+                      </div>
+                      <div class="progress-bar" style="width:25%">
+                        Pretty Good
+                      </div>
+                      <div class="progress-bar" style="width:25%">
+                        Superhero
+                      </div>
+
+                    </div>                   
+
+                  </div><!--/ systems-->
+
+                </div>
+
+              </section><!--/ skill -->
+
+              <!-- experiences -->
+              <section class="panel-group resume margin-bottom" id="experience">
+
+                <h2>Experiences</h2>
+                <!--<p class="margin-bottom"><small>Ut enim ad minim veniam</small></p>-->
+
+                <!-- ex1 -->
+                <article class="resume-item">
+
+                  <div class="resume-year"><small>2015 - Today</small></div>
+
+                  <div class="resume-btn">
+                    <a href="#ex1" data-toggle="collapse" data-parent="#experience"></a>
+                  </div>
+                  
+                  <div class="panel">
+
+                    <div class="panel-heading">
+                      <div class="panel-title">
+                        <h4 class="resume-title">Digital Meat.</h4>
+                        <p class="text-secondary"> / Web Developer</p>
+                      </div>
+                    </div>
+
+                    <div id="ex1" class="panel-collapse collapse in">
+                      <div class="panel-body text-grey">
+                        <p>
+                          Parte del equipo de Desarrollo de la empresa a cargo de atender los proyectos de diferentes clientes. 
+                        </p>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </article><!--/ ex1 -->
+
+                <!-- ex2 -->
+                <article class="resume-item">
+
+                  <div class="resume-year"><small>2015 - 2015</small></div>
+
+                  <div class="resume-btn">
+                    <a href="#ex2" data-toggle="collapse" data-parent="#experience"></a>
+                  </div>
+
+                  <div class="panel">
+
+                    <div class="panel-heading">
+                      <div class="panel-title">
+                        <h4 class="resume-title">Octano</h4>
+                        <p class="text-secondary"> / Web Developer</p>
+                      </div>
+                    </div>
+
+                    <div id="ex2" class="panel-collapse collapse in">
+                      <div class="panel-body text-grey">
+                        <p>
+                          Parte del equipo de Desarrollo de la empresa a cargo de atender los proyectos de diferentes clientes.
+                        </p>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </article><!--/ ex2 -->
+
+                <!-- ex3 -->
+                <article class="resume-item">
+                  <div class="resume-year"><small>2014 - 2015</small></div>
+
+                  <div class="resume-btn">
+                    <a href="#ex3" data-toggle="collapse" data-parent="#experience"></a>
+                  </div>
+
+                  <div class="panel">
+
+                    <div class="panel-heading">
+                      <div class="panel-title">
+                        <h4 class="resume-title">Gisma</h4>
+                        <p class="text-secondary"> / Web Developer</p>
+                      </div>
+                    </div>
+
+                    <div id="ex3" class="panel-collapse collapse in">
+                      <div class="panel-body text-grey">
+                        <p>
+                          Formaba parte del equipo de desarrollo de la empresa, encargado de la mantención y desarrollo de la plataforma de la misma.
+                        </p>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </article><!--/ ex3 -->
+
+                <!-- ex4 -->
+                <article class="resume-item">
+                  <div class="resume-year"><small>2013 - 2013</small></div>
+
+                  <div class="resume-btn">
+                    <a href="#ex4" data-toggle="collapse" data-parent="#experience"></a>
+                  </div>
+
+                  <div class="panel">
+
+                    <div class="panel-heading">
+                      <div class="panel-title">
+                        <h4 class="resume-title">Antartica</h4>
+                        <p class="text-secondary"> / Developer</p>
+                      </div>
+                    </div>
+
+                    <div id="ex4" class="panel-collapse collapse in">
+                      <div class="panel-body text-grey">
+                        <p>
+                          Formaba parte del equipo de Desarrollo de la empresa, encargado de la mantención y construcción de los sitemas administrativos y comerciales de la misma
+                        </p>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </article><!-- ex4 -->
+
+                <article class="resume-item">
+                  <div class="resume-year"><small>2012 - 2013</small></div>
+
+                  <div class="resume-btn">
+                    <a href="#ex4" data-toggle="collapse" data-parent="#experience"></a>
+                  </div>
+
+                  <div class="panel">
+
+                    <div class="panel-heading">
+                      <div class="panel-title">
+                        <h4 class="resume-title">Fusiona</h4>
+                        <p class="text-secondary"> / Web Developer</p>
+                      </div>
+                    </div>
+
+                    <div id="ex4" class="panel-collapse collapse in">
+                      <div class="panel-body text-grey">
+                        <p>
+                      		Desarrollador Web utilizando tecnologias como PHP, MySQL, SQLServer, HTML, CSS, Javascript, 
+
+							Otras Tecnologías de abstracción:
+
+							Codeigniter : Framework PHP
+							Wordpress : CMS PHP
+							JQuery       : Libreria Javascript
+                        </p>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </article><!-- ex4 -->
+
+                <article class="resume-item">
+                  <div class="resume-year"><small>2012 - 2013</small></div>
+
+                  <div class="resume-btn">
+                    <a href="#ex4" data-toggle="collapse" data-parent="#experience"></a>
+                  </div>
+
+                  <div class="panel">
+
+                    <div class="panel-heading">
+                      <div class="panel-title">
+                        <h4 class="resume-title">Web Partners</h4>
+                        <p class="text-secondary"> / Web Developer</p>
+                      </div>
+                    </div>
+
+                    <div id="ex4" class="panel-collapse collapse in">
+                      <div class="panel-body text-grey">
+                        <p>
+                      		Desarrollador encargado de la mantención de los Sitios Web de la empresa utilizando tecnologías tales como :
+
+							- PHP
+							- CSS
+							- JQuery
+							- MySQL
+                        </p>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </article><!-- ex4 -->
 
 
-            <style type="text/css">
-                    .rotateMe {
-                        -webkit-transition: -webkit-transform 0.7s ease-out;
-                        -moz-transition: -moz-transform 0.7s ease-out;
-                        -o-transition: -o-transform 0.7 ease-out;
-                        -ms-transition: -ms-transform 0.7 ease-out;
-                        transition: transform 0.7s ease-out;
-                    }
-                    .rotateMe:hover {
-                        -webkit-transform: rotate(45deg);
-                        -moz-transform: rotate(45deg);
-                        -o-transform: rotate(45deg);
-                        -ms-transform: rotate(45deg);
-                        transform: rotate(45deg);
-                    }
-                    .rotateMeFull {
-                        -webkit-transition: -webkit-transform 2s ease-out;
-                        -moz-transition: -moz-transform 2s ease-out;
-                        -o-transition: -o-transform 2s ease-out;
-                        -ms-transition: -ms-transform 2s ease-out;
-                        transition: transform 2s ease-out;
-                    }
-                    .rotateMeFull:hover {
-                        -webkit-transform: rotate(360deg);
-                        -moz-transform: rotate(360deg);
-                        transform: rotate(360deg);
-                    }
-                    a{
-                            outline: none !important;
-                    }
-                    body{
-                            background: #f5f5f5;
-                    }
-                    h1{
-                        width: auto !important;
-                    }
-                    img{
-                            border: 0;
-                    }
-                    #app-menu{
-                            margin-top: 10px; 
-                            width: 500px
-                    }
-                    .hidden{
-                        display: none;
-                    }
-                    #main-content{
-                            float: left;
-                            width: 100%;
-                    }
-                    #portafolio{
-                        background: #333333;
-                        height: 30px;
-                        left: -85px;
-                        line-height: 28px;
-                        position: fixed;
-                        text-align: center;
-                        top: 50%;
-                        width: 200px;
-                        transform: rotate(270deg);
-                        -webkit-transform: rotate(270deg);
-                        -o-transform: rotate(270deg);
-                        -moz-transform: rotate(270deg);
-                        -ms-transform: rotate(270deg);
-                        transition: all 0.4s ease;
-                    }
-                    #portafolio:hover{
-                        left: -80px;
-                    }
-                    #portafolio a{
-                        color: #F5F5F5;
-                        display: block;
-                        font-weight: bold;
-                        text-decoration: none;
-                    }
-                    #resume{
-                        -o-transition: -webkit-margin 1s ease-out;
-                        -webkit-transition: -webkit-margin 1s ease-out;
-                        -moz-transition: -moz-margin 1s ease-out;
-                        -ms-transition: -ms-margin 1s ease-out;
-                        transition: margin 1s ease-out;
-                    }
-                    #resume:hover{
-                        margin-top: -20px;
-                    }
-                    #social-menu, #app-menu{
-                            float: center;
-                            margin: 0 auto;
-                            width: 350px
-                    }
-                    #social-menu ul li,#app-menu ul li{
-                            float: left;
-                            list-style: none;
-                            margin: 5px
-                    }
-                    #social-plugn{
-                        position: absolute;
-                        right: 0;
-                        top: 0;
-                    }
-            </style>
-            
-            
-            <script>
-                $(function(){
-                    $("#portafolio").on('click',function(){
-                        $.colorbox({href:'/img/sp-studio.png'});
-                        $("a.gallery").colorbox({
-                            rel:'gallery'
-                        });
-                    });
-                });
-            </script>
+                <article class="resume-item">
+                  <div class="resume-year"><small>2011 - 2012</small></div>
 
-	</head>
-	<body>
-            
-        
-        
-		<div id="social-menu">
-			<ul>
-				<li><a href="http://cl.linkedin.com/pub/nicol%C3%A1s-fredes/66/969/877/" target="_blank">
-                                        <img class="rotateMe" src="/img/linkedin.png">
-				</a></li>
-				<li><a href="https://github.com/niko-afv" target="_blank">
-					<img class="rotateMe" src="/img/github_square.png" width="32" height="32">
-				</a></li>
-				<li><a href="https://twitter.com/niko_afv" target="_blank">
-					<img class="rotateMe" src="/img/twitter_1.png">
-				</a></li>
-				<li><a href="https://plus.google.com/111747234386971646784/" target="_blank">
-					<img class="rotateMe" src="/img/google_plus.png"></a>
-				</li>
-				<li><a href="http://www.flickr.com/photos/niko_afv/" target="_blank">
-					<img class="rotateMe" src="/img/flickr.png">
-				</a></li>
-				<li><a href="https://www.facebook.com/niko.afv2" target="_blank">
-					<img class="rotateMe" src="/img/fb_1.png">
-				</a></li>
-			</ul>
-		</div>
-		<div id="main-content">                    
-		
-                    <div id="resume">
-			<div class="header"></div>
-			  	<h1 class="name">
-					<span class="first-name">Nicolás</span>
-					<span class="last-name">Fredes</span>
-					<span class="headline">Desarrollador Web en Gisma</span>
-				</h1>
-                                
-                        <img src="/img/sp-studio.png" alt="Nicolás Fredes" width="100" height="100" class="rotateMeFull" style="float: left;"/>
-				      
-		  	<div class="section contact">
-				<h2 class="section-header">
-					<span class="text">Contact</span>	
-				</h2>
-		    	<div class="content">
-					<div class="email-address">
-						<span class="label">Email:</span>
-						<span class="content"><a href="mailto:%6e%69%6b%6f.%61%66%76@%67%6d%61%69%6c.%63%6f%6d">niko.afv@gmail.com</a></span>
-					</div>
-				</div>
-		    	<div class="clear"></div>
-		  	</div>
+                  <div class="resume-btn">
+                    <a href="#ex4" data-toggle="collapse" data-parent="#experience"></a>
+                  </div>
 
-				      
-			<div class="section summary">
-				<h2 class="section-header">
-					<span class="text">Summary</span>	
-				</h2>
-		    	<div class="content">
-		    		<p>
-		    			Soy un profesional dedicado al uso de tecnologías para el desarrollo web, con experiencia tanto a nivel de FrontEnd como BackEnd. Me gusta ser un aporte exponiendo ideas en los proyectos y llevando a cabo las tareas lo mejor posible.
-		    		</p>
-				</div>
-		    	<div class="clear"></div>
-		  	</div>
-				      
-		  	<div class="section skills">
-				<h2 class="section-header">
-					<span class="text">Skills</span>	
-				</h2>
-		    	<div class="content">
-					<ul class="skills-list">
-			  			<li class="skill first">
-			      			<span class="skill-name"><a target="_blank" href="http://php.net/">PHP5</a></span>
-			  			</li>
-			  			<li class="skill">
-			      			<span class="skill-name"><a target="_blank" href="http://www.mysql.com/">MySQL</a></span>
-			  			</li>
-			  			<li class="skill">
-			      			<span class="skill-name" ><a target="_blank" href="http://www.w3schools.com/html/html5_intro.asp">HTML5</a></span>
-			  			</li>
-			  			<li class="skill">
-			      			<span class="skill-name"><a target="_blank" href="http://www.w3.org/Style/CSS/">CSS</a></span>
-			  			</li>
-			  			<li class="skill">
-			      			<span class="skill-name"><a target="_blank" href="javascript:void(0)">JavaScript</a></span>
-			  			</li>
-			  			<li class="skill">
-			      			<span class="skill-name"><a target="_blank" href="http://jquery.com/">jQuery</a></span>	
-			  			</li>
-			  			<li class="skill">
-			      			<span class="skill-name"><a target="_blank" href="http://ellislab.com/codeigniter">CodeIgniter</a></span>
-		  				</li>
-						<li class="skill">
-					  		<span class="skill-name"><a target="_blank" href="http://jqueryui.com/">jQuery UI</a></span>
-						</li>
-			  			<li class="skill">
-			      			<span class="skill-name"><a target="_blank" href="http://wordpress.org/">WordPress</a></span>
-			  			</li>
-			  			<li class="skill">
-			      			<span class="skill-name"><a target="_blank" href="https://www.djangoproject.com/">Django</a></span>
-			  			</li>
-			  			<li class="skill">
-			      			<span class="skill-name"><a target="_blank" href="http://www.linux.com/">Linux</a></span>
-			  			</li>
-			  			<li class="skill">
-		      				<span class="skill-name"><a target="_blank" href="http://www.yiiframework.com/">Yii</a></span>
-			  			</li>
-			  			<li class="skill">
-			      			<span class="skill-name"><a target="_blank" href="javascript:void(0)">MVC</a></span>
-			  			</li>
-			  			<li class="skill">
-			      			<span class="skill-name"><a target="_blank" href="http://www.desarrolloweb.com/articulos/499.php">POO</a></span>
-			  			</li>
-			  			<li class="skill">
-			      			<span class="skill-name"><a target="_blank" href="http://www.microsoft.com/net">.NET</a></span>
-			  			</li>
-			  			<li class="skill">
-			      			<span class="skill-name"><a target="_blank" href="http://www.microsoft.com/visualstudio/esn#2013-downloads">Visual Studio</a></span>
-			  			</li>
-			  			<li class="skill">
-			      			<span class="skill-name"><a target="_blank" href="http://git-scm.com/">Git</a></span>
-			  			</li>
-			  			<li class="skill">
-		      				<span class="skill-name"><a target="_blank" href="http://subversion.apache.org/">SVN</a></span>
-			  			</li>
-		  			</ul>
-				</div>
-		    	<div class="clear"></div>
-			</div>
+                  <div class="panel">
 
-				      
-			<div class="section positions">
-				<h2 class="section-header">
-					<span class="text">Experience</span>	
-				</h2>
-				<div class="content">
-					<div class="position first">
-			      		<div class="company-name">Editorial Antartica</div>
-                                            <div class="dates">
-                                                <span class="start-month">08 /</span>
-                                                <span class="start-year">2013</span>
-                                                <span class="date-separator">-</span>
-                                                <span class="is-current">Present</span>
-                                            </div>
+                    <div class="panel-heading">
+                      <div class="panel-title">
+                        <h4 class="resume-title">314 S.A</h4>
+                        <p class="text-secondary"> / Web Developer</p>
+                      </div>
+                    </div>
 
-                                            <div class="title">Desarrollador de Sistemas</div>
-                                            <div class="job-summary">
-                                                <p>
-                                                    Formo parte del equipo de Desarrollo de la empresa,
-                                                    encargado de la mantención y construcción de los
-                                                    sitemas administrativos y comerciales de la misma
-                                                </p>
-                                                <!--<p>Otras Tecnologías de abstracción:</p>
-                                                <p>
-                                                    Codeigniter : Framework PHP
-                                                    Wordpress : CMS PHP
-                                                    JQuery       : Libreria Javascript
-                                                </p>-->
-                                            </div>
-		  			</div>
-                                    
-                                        <div class="position">
-			      		<div class="company-name">Fusiona</div>
-                                            <div class="dates">
-                                                <span class="start-month">05 /</span>
-                                                <span class="start-year">2012</span>
-                                                <span class="date-separator">-</span>
-                                                <span class="end-month">07 /</span>
-                                                <span class="end-year">2013</span>
-                                            </div>
+                    <div id="ex4" class="panel-collapse collapse in">
+                      <div class="panel-body text-grey">
+                        <p>
+                      		Desarrollador web dedicado a trabajar principalmente con tecnologias como PHP, MySQL, CSS, HTML, Javascript, Python y Django.
 
-                                            <div class="title">Desarrollador Web</div>
-                                            <div class="job-summary">
-                                                <p>
-                                                    Desarrollador Web utilizando tecnologias como PHP, MySQL, SQLServer, HTML, CSS, Javascript,
-                                                </p>
-                                                <p>Otras Tecnologías de abstracción:</p>
-                                                <p>
-                                                    Codeigniter : Framework PHP
-                                                    Wordpress : CMS PHP
-                                                    JQuery       : Libreria Javascript
-                                                </p>
-                                            </div>
-		  			</div>
-                                        
-			  		<div class="position">
-			      		<div class="company-name">WebPartners</div>
-		  				<div class="dates">
-			    			<span class="start-month">01 /</span>
-							<span class="start-year">2012</span>
-							<span class="date-separator">-</span>
-                                                        <span class="end-month">04 /</span>
-							<span class="end-year">2012</span>
-		  				</div>
-						<div class="title">Desarrollador Web</div>		
-						<div class="job-summary">
-							<p>
-								Desarrollador encargado de la mantención de los Sitios Web de la empresa utilizando tecnologías tales como :
-							</p>
+							Otras tecnologias de abstracción:
 
-							<ul>
-								<li>PHP</li>
-								<li>CSS</li>
-								<li>JQuery</li>
-								<li>MySQL</li>
-							</ul>
-						</div>
-			  		</div>
-			  		<div class="position">
-			      		<div class="company-name">314 S.A.</div>
-		  				<div class="dates">
-			    			<span class="start-month">05 /</span>
-							<span class="start-year">2011</span>
-		  					<span class="date-separator">-</span>
-			      			<span class="end-month">01 /</span>
-							<span class="end-year">2012</span>
-		  				</div>
-						<div class="title">Desarrollador Web</div>		
-						<div class="job-summary">
-							<p>
-								Desarrollador web dedicado a trabajar principalmente con tecnologias como PHP, MySQL, CSS, HTML, Javascript, Python y Django.
-							</p>
-							<p>Otras tecnologias de abstracción:</p>
-							<p>
-								Yii : Framework PHP
-								JQuery : Libreria Javascript
-								BluePrint : Framework CSS
-								Django : Framework Python
-							</p>
-						</div>
-		  			</div>
-			  		<div class="position">
-			      		<div class="company-name">Noriega Noriega S.A</div>
-		  				<div class="dates">
-			    			<span class="start-month">05 /</span>
-							<span class="start-year">2010</span>
-		  					<span class="date-separator">-</span>
-			      			<span class="end-month">05 /</span>
-							<span class="end-year">2011</span>
-		  				</div>
-						<div class="title">Digitador, Programador, Soporte Internet</div>		
-						<div class="job-summary">
-							<p>
-								Digitador de plataforma AS/400, desarrollador de software con tecnologias .NET y Soporte del sitio web a Clientes.
-							</p>
-						</div>
-			  		</div>
-			  		<div class="position">
-			      		<div class="company-name">Silvio Stagnaro Carniglia S.A</div>
-		  				<div class="dates">
-							<span class="start-month">02 /</span>
-							<span class="start-year">2009</span>
-							<span class="date-separator">-</span>
-							<span class="end-month">04 /</span>
-							<span class="end-year">2010</span>
-						</div>
+							Yii : Framework PHP
+							JQuery : Libreria Javascript
+							BluePrint : Framework CSS
+							Django : Framework Python
+                        </p>
+                      </div>
 
-						<div class="title">Administrador de Kardex</div>		
-						<div class="job-summary">
-							<p>Administrador de kardex y cuadre con sistema computacional de la empresa.</p>
-						</div>
-			  		</div>
-				</div>
-		    	<div class="clear"></div>
-		  	</div>
+                    </div>
 
-			<div class="section educations">
-				<h2 class="section-header">
-					<span class="text">Education</span>	
-				</h2>
-		    	<div class="content">
-		    		<div class="education first">
-				      	<div class="school-name">Instituto Tecnológico de Chile</div>
-			  			<div class="dates">
-							<span class="start-year">2010</span>
-							<span class="date-separator">-</span>
-							<span class="end-year">2013</span>
-			  			</div>
+                  </div>
 
-						<div class="program">
-							<span class="degree">Tecnico Profesional en Analisis de Sistemas de la Información</span>
-							<span class="program-separator">,</span>
-							<span class="field-of-study">Informatica</span>
-						</div>			
-					</div>
-				</div>
-		    	<div class="clear"></div>
-			</div>
-			<div class="footer"></div>
-		</div>
-		</div>
+                </article><!-- ex4 -->
 
 
-        <div id="portafolio">
-            <!--<a href="img/portafolio/desplegable.png" class="gallery" title="<a href='http://www.ak47system.net/proyectos/desplegable/' target='_blank' style='color:#333333'>Select Multilinea</a>">PORTAFOLIO</a>-->
-            <a class="gallery" href="img/portafolio/larvaterapia-1.jpg" title="<a href='http://larvaterapia.cl' target='_blank' style='color:#333333'>Larvaterapia</a>">PORTAFOLIO</a>
-            <div class="hidden">
-                <a class="gallery" href="img/portafolio/larvaterapia-2.jpg" title="<a href='http://larvaterapia.cl' target='_blank' style='color:#333333'>Larvaterapia</a>">&nbsp;</a>
-                <a class="gallery" href="img/portafolio/medictrace-1.jpg" title="<a href='http://webidea.cl/post_portafolio/2' target='_blank' style='color:#333333'>MedicTrace</a>">&nbsp;</a>
-                <a class="gallery" href="img/portafolio/medictrace-2.jpg" title="<a href='http://webidea.cl/post_portafolio/2' target='_blank' style='color:#333333'>MedicTrace</a>">&nbsp;</a>
-                <a class="gallery" href="img/portafolio/jardin-del-mar-1.jpg" title="<a href='http://jardindelmar.webidea.cl/' target='_blank' style='color:#333333'>Jardín del Mar</a>">&nbsp;</a>
-                <a class="gallery" href="img/portafolio/jardin-del-mar-2.jpg" title="<a href='http://jardindelmar.webidea.cl//' target='_blank' style='color:#333333'>Jardín del Mar</a>">&nbsp;</a>
-            </div>
-        </div>
-        <div id="social-plugn">
-            <span id="facebook-count"><span class="fb-like" data-href="http://nicolasfredes.cl" data-send="false" data-layout="button_count" data-width="500" data-show-faces="true" data-font="verdana"></span></span>
-            <span><a href="https://twitter.com/share" class="twitter-share-button" data-lang="en"></a></span>
-        </div>
-        
-        
-        <div id="fb-root"></div>
-        <script>
-            (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
-            fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));
-        </script>
-        <!--Analytics-->
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+                <article class="resume-item">
+                  <div class="resume-year"><small>2010 - 2011</small></div>
 
-            ga('create', 'UA-42207506-1', 'nicolasfredes.cl');
-            ga('send', 'pageview');
-      </script>
-        <script>
-                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-        </script>
-        </body>
+                  <div class="resume-btn">
+                    <a href="#ex4" data-toggle="collapse" data-parent="#experience"></a>
+                  </div>
+
+                  <div class="panel">
+
+                    <div class="panel-heading">
+                      <div class="panel-title">
+                        <h4 class="resume-title">Noriega Noriega</h4>
+                        <p class="text-secondary"> / Developer</p>
+                      </div>
+                    </div>
+
+                    <div id="ex4" class="panel-collapse collapse in">
+                      <div class="panel-body text-grey">
+                        <p>
+                      		Digitador de plataforma AS/400, desarrollador de software con tecnologias .NET y Soporte del sitio web a Clientes.
+                        </p>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </article><!-- ex4 -->
+
+                <article class="resume-item">
+                  <div class="resume-year"><small>2009 - 2010</small></div>
+
+                  <div class="resume-btn">
+                    <a href="#ex4" data-toggle="collapse" data-parent="#experience"></a>
+                  </div>
+
+                  <div class="panel">
+
+                    <div class="panel-heading">
+                      <div class="panel-title">
+                        <h4 class="resume-title">Silvio Stagnaro Carniglia</h4>
+                        <p class="text-secondary"> / Developer / Web Support</p>
+                      </div>
+                    </div>
+
+                    <div id="ex4" class="panel-collapse collapse in">
+                      <div class="panel-body text-grey">
+                        <p>
+                      		Digitador de plataforma AS/400, desarrollador de software con tecnologias .NET y Soporte del sitio web a Clientes.
+                        </p>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </article><!-- ex4 -->
+
+              </section><!--/ experience --> 
+
+              <!-- education -->
+              <section class="panel-group resume margin-bottom" id="education">
+
+                <h2>Education</h2>
+                <!--<p class="margin-bottom"><small>Fusce convallis mauris</small></p>-->
+
+                <!-- ed1 -->
+                <article class="resume-item">
+                  <div class="resume-year"><small>2009 - 2012</small></div>
+
+                  <div class="resume-btn">
+                    <a href="#ed1" data-toggle="collapse" data-parent="#education"></a>
+                  </div>
+
+                  <div class="panel">
+
+                    <div class="panel-heading">
+                      <div class="panel-title">
+                        <h4 class="resume-title">Instituto Tecnológico de Chile (ITC)</h4>
+                        <p class="text-secondary"> / Técnico en Analisis de Sistemas</p>
+                      </div>
+                    </div>
+
+                    <div id="ed1" class="panel-collapse collapse in">
+                      <div class="panel-body text-grey">
+                        <p>
+                          
+                        </p>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </article><!-- ed1 -->
+
+              </section><!--/ education -->  
+
+              <!-- milestones -->
+              <section class="margin-bottom" id="milestones">
+
+                <h2>Milestones Achieved</h2>
+                <p class="margin-bottom"><small>Donec lobortis risus a elit</small></p>
+
+                <div class="row">
+
+                  <div class="col-sm-6 col-lg-3 margin-bottom">
+
+                    <article class="text-center">
+
+                      <div class="thumbnail"><i class="fa fa-clock-o"></i></div>
+                      <h2 class="lead">6</h2>
+                      <h5>Years of Experience</h5>
+
+                    </article>
+
+                  </div>
+
+                  <div class="col-sm-6 col-lg-3 margin-bottom">
+
+                    <article class="text-center">
+
+                      <div class="thumbnail"><i class="fa fa-code"></i></div>
+                      <h2 class="lead">80</h2>
+                      <h5>Projects Finished</h5>
+
+                    </article>
+
+                  </div>
+
+                  <div class="col-sm-6 col-lg-3 margin-bottom">
+
+                    <article class="text-center">
+
+                      <div class="thumbnail"><i class="fa fa-smile-o"></i></div>
+                      <h2 class="lead">160</h2>
+                      <h5>Happy Clients</h5>
+
+                    </article>
+
+                  </div>
+
+                  <div class="col-sm-6 col-lg-3 margin-bottom">
+
+                    <article class="text-center">
+
+                      <div class="thumbnail"><i class="fa fa-trophy"></i></div>
+                      <h2 class="lead">36</h2>
+                      <h5>Awards Won</h5>
+
+                    </article>
+
+                  </div>
+
+                </div>
+                
+              </section><!--/ milestones -->  
+
+              
+            </div><!--/ padding -->
+
+            <footer class="visible-xs">
+              <p class="text-center"><small>Nicolás Fredes&copy;2016 <span class="text-secondary">Web Developer</span></small></p>
+            </footer>   
+          
+          </div><!--/ col-9 -->
+
+        </section><!--/ wrapper section -->    
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <!-- Bootstrap JS -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- Plugins JS -->
+  <script src="js/debouncer.js"></script>
+
+  <!-- Core Theme JS -->
+  <script src="js/enterprise.js"></script>
+
+  <!-- Color Switch JS / can be removed in production -->
+  <script src="js/color-switch.js"></script>
+
+</body>
 </html>
